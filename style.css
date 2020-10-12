@@ -33,6 +33,11 @@
     top: -70px;
     position: relative;
     z-index: 2;
+    font-size: 1.0rem;
+    color:black;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: inherit;
 }
 body {
   font-family: 'OpenSans', sans-serif;
