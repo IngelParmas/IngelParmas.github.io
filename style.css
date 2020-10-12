@@ -16,6 +16,7 @@
 }
 #britt {
       position: relative;
+      visibility: hidden;
     }
 #speech {
     width: 700px;
@@ -23,6 +24,7 @@
     top: -350px;
     position: relative;
     z-index: 0;
+    visibility: hidden;
 }
 .pics {
     position: relative;
@@ -38,6 +40,7 @@
     font-weight: 600;
     text-transform: uppercase;
     font-family: inherit;
+    visibility: hidden;
 }
 body {
   font-family: 'OpenSans', sans-serif;
