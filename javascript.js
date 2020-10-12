@@ -17,6 +17,7 @@ function newQuote() {
 function move() {
       let start = Date.now();
       document.getElementById("quoteDisplay").style.visibility = "hidden";
+      document.getElementById("button").disabled = true;
       document.getElementById("speech").style.visibility = "hidden";
       document.getElementById("britt").style.visibility = "visible";
 
@@ -29,6 +30,7 @@ function move() {
 		clearInterval(timer);
 		document.getElementById("quoteDisplay").style.visibility = "visible";
                 document.getElementById("speech").style.visibility = "visible";
+		document.getElementById("button").disabled = false;
 	}
 
       }, 20);
