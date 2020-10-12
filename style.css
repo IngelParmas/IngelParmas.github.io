@@ -32,6 +32,10 @@ h1 {
   font-weight: 700;
   text-transform: uppercase;
   font-family: inherit;
+  margin-bottom: 2%;
+}
+input {
+  margin-bottom: 2%;
 }
 button {
   position: relative;
@@ -46,6 +50,7 @@ button {
   font-weight: 700;
   text-transform: uppercase;
   font-family: inherit;
+  margin-bottom: 2%;
 }
 
 button.big-button {
