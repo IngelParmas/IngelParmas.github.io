@@ -23,7 +23,7 @@ function move() {
 	  
         document.getElementById("britt").style.left = (-900) + timePassed / 5 + 'px';
 	
-        if (timePassed > 4000) clearInterval(timer);
+        if (timePassed > 5000) clearInterval(timer);
 
       }, 20);
     }
