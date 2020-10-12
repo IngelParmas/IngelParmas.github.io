@@ -16,7 +16,6 @@ function newQuote() {
 
 function move() {
       let start = Date.now();
-      document.getElementById("britt").style.visibility = visible;
 
       let timer = setInterval(function() {
         let timePassed = Date.now() - start;
