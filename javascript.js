@@ -1,9 +1,9 @@
 var quotes = [
 	'3 4 LASSO',
 	'Taipohh ju',
-	'Tule Mökusse, arutab seal edasi',
+	'Lähme Mökusse',
 	'SPAAAAAA',
-	'LOLLID LUUAD LOLLID LUUAD LOLLID LUUAD',
+	'LOLLID LUUAD',
 	'TUUDRUKUUUUD',
 	'MadaMada',
 	'KenaKena'
