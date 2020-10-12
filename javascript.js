@@ -1,11 +1,12 @@
 var quotes = [
-	'3 4 lasso',
+	'3 4 LASSO',
 	'Taipohh ju',
-	'Tule Mõkusse, arutame seal edasi',
-	'SPAAAA',
+	'Tule Mökusse, arutab seal edasi',
+	'SPAAAAAA',
 	'LOLLID LUUAD LOLLID LUUAD LOLLID LUUAD',
 	'TUUDRUKUUUUD',
-	'MadaMada'
+	'MadaMada',
+	'KenaKena'
 	]
 
 function newQuote() {
