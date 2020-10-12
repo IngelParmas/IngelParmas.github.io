@@ -15,12 +15,13 @@ function newQuote() {
 
 function move() {
       let start = Date.now();
+      document.getElementById("britt").style.visibility = visible;
 
       let timer = setInterval(function() {
         let timePassed = Date.now() - start;
-
+	  
         document.getElementById("britt").style.left = (-900) + timePassed / 5 + 'px';
-
+	
         if (timePassed > 4000) clearInterval(timer);
 
       }, 20);
