@@ -16,8 +16,13 @@
 }
 #britt {
       position: relative;
-      visibility: hidden;
     }
+#speech {
+    width: 700px;
+    left: -330px;
+    top: -350px;
+    position: relative;
+}
 body {
   font-family: 'OpenSans', sans-serif;
   font-size: 1rem;
