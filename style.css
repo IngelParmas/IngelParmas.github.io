@@ -22,6 +22,17 @@
     left: -330px;
     top: -350px;
     position: relative;
+    z-index: 0;
+}
+.pics {
+    position: relative;
+    top: 100px;
+}
+#quote {
+    left: 450px;
+    top: -70px;
+    position: relative;
+    z-index: 2;
 }
 body {
   font-family: 'OpenSans', sans-serif;
