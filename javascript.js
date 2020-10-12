@@ -4,7 +4,8 @@ var quotes = [
 	'Tule Mõkusse, arutame seal edasi',
 	'SPAAAA',
 	'LOLLID LUUAD LOLLID LUUAD LOLLID LUUAD',
-	'TUUDRUKUUUUD'
+	'TUUDRUKUUUUD',
+	'MadaMada'
 	]
 
 function newQuote() {
