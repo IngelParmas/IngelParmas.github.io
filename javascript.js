@@ -16,13 +16,20 @@ function newQuote() {
 
 function move() {
       let start = Date.now();
+      document.getElementById("quoteDisplay").style.visibility = "hidden";
+      document.getElementById("speech").style.visibility = "hidden";
+      document.getElementById("britt").style.visibility = "visible";
 
       let timer = setInterval(function() {
         let timePassed = Date.now() - start;
 	  
         document.getElementById("britt").style.left = (-900) + timePassed / 5 + 'px';
 	
-        if (timePassed > 5000) clearInterval(timer);
+        if (timePassed > 5000) {
+		clearInterval(timer);
+		document.getElementById("quoteDisplay").style.visibility = "visible";
+                document.getElementById("speech").style.visibility = "visible";
+	}
 
       }, 20);
     }
