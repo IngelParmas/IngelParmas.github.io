@@ -19,9 +19,9 @@ function move() {
       let timer = setInterval(function() {
         let timePassed = Date.now() - start;
 
-        document.getElementById("britt").style.left = timePassed / 5 + 'px';
+        document.getElementById("britt").style.left = (-900) + timePassed / 5 + 'px';
 
-        if (timePassed > 2000) clearInterval(timer);
+        if (timePassed > 4000) clearInterval(timer);
 
       }, 20);
     }
