@@ -16,7 +16,7 @@
 }
 #britt {
       position: relative;
-      cursor: pointer;
+      visibility: hidden;
     }
 body {
   font-family: 'OpenSans', sans-serif;
